@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <h2>MyCompany</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Our Profile</a></li>
+        </ul>
+    </nav>
+
+    <header class="banner">
+        <h1 id="welcomeText">Hi, Guest</h1>
+    </header>
+
+    <section class="form-section">
+        <h2>Message Us</h2>
+
+        <form id="messageForm">
+            <label>Name:</label>
+            <input type="text" id="nameInput" required>
+
+            <label>Email:</label>
+            <input type="email" id="emailInput" required>
+
+            <label>Message:</label>
+            <textarea id="msgInput" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="resultBox"></div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
